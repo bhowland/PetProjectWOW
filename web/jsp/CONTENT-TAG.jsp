@@ -29,6 +29,13 @@
           tamer. Each one will be a two pet plan so you can level a pet at each tamer. We will also post
           link for each tamer incase you dont yet have the pets.
         </p>
+
+        <p>The Pandaria menu will have the, what we feel, is the fastest way to do all the tamers.
+          The order they are listed is the order we feel you should do them. Since the ledengery battles
+          give little to no experiance, at this time, we will not be list ing them on this site.  The
+          Draenor menus are simply in a clockwise setup. The marks will signify the nearest tamer for
+          each the Alliance ahd the Horde starting zones.
+        </p>
       </div>
     </div>
     <div class="post">
