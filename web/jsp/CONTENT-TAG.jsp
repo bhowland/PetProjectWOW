@@ -36,6 +36,15 @@
           Draenor menus are simply in a clockwise setup. The marks will signify the nearest tamer for
           each the Alliance ahd the Horde starting zones.
         </p>
+
+        <p>One big thing to know is that leveling two pets at the same time wont grant the same experance
+          so it is a better idea to level only ONE pet at a time, even if you only need one to win.
+          Remeber you hat(toy now) and leveling food for the pet.  I tend to select three pet to level for the
+          day.  I also like to favorite them to find them easily while flying from one trainer to the
+          next. If you use the safari hat and a basic food buff you can get nearly 3 pets in just Pandaria,
+          from level one to 25. If it is the the pet event week, now we are talking 5 pets in one trip.
+          If you dont have a food buff for the pet you can level 2 in Pandaria.
+        </p>
       </div>
     </div>
     <div class="post">
