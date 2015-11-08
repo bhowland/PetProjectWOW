@@ -2,7 +2,7 @@
 <div id="content">
   <div id="posts">
     <div class="post">
-      <h3 class="title">Mo'ruk - Krasurang(sp?) Wild</h3>
+      <h3 class="title">Mo'ruk - Krasurang(sp?) Wild (62.2, 45.8)</h3>
       <div class="story">
         <p> This fight I found to be an odd one.  I have tried some combos that would be fast
            kills but were never quite perfect. The strat that I am putting on this page, I have
