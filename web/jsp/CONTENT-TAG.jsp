@@ -43,7 +43,8 @@
           day.  I also like to favorite them to find them easily while flying from one trainer to the
           next. If you use the safari hat and a basic food buff you can get nearly 3 pets in just Pandaria,
           from level one to 25. If it is the the pet event week, now we are talking 5 pets in one trip.
-          If you dont have a food buff for the pet you can level 2 pets in Pandaria.
+          If you dont have a food buff for the pet you can level 2 pets in Pandaria.  In Draenor you can level
+          one pet, by doing the 6 pet tamers without a food buff, from 1 to nearly 25.
         </p>
       </div>
     </div>
