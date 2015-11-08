@@ -14,7 +14,7 @@
           <li>Cogblade Raptor (2,1,1)</li>
           <li>Carry</li>
 
-          <p></p>
+          <p>You can use a level on pet here.</p>
         </ul>
         <h4 class="title">The Strat</h4>
         <br />
@@ -47,7 +47,7 @@
       </div>
     </div>
     <div class="post">
-      <h2 class="title"><a target="_blank" href="http://www.wowhead.com/npc=66741/aki-the-chosen#comments">
+      <h2 class="title"><a target="_blank" href="http://www.wowhead.com/npc=87122/gargra#comments">
         Wowhead</a>
       </h2>
     </div>
