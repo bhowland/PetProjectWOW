@@ -1,0 +1,59 @@
+******************************************
+*Code Review for Ben - PetProjectWOWFall *
+*                             By Jeffrey *
+******************************************
+
+Overall - Great!
+- The project is in the early phase.
+- All the JSP file contents are filled out with contents.
+- I liked the organization of the jsp files in the project. 
+- Very interesting project as a fellow gamer!
+
+Execution - Great
+- The project so far has all the JSP pages, which links to each other very well
+
+Code Structure - Nice!
+- Code is nicely factored out using JSP templates.
+- Easy to find where everything is located.
+
+Naming Standard - Awesome!
+- All the JSP pages have been properly named with appropriate name for folders.
+
+Repititive Code - Great!
+- Template removed lots of potentially repetitive code
+
+Exception Handling - N/A
+- No Java code yet to determine.
+
+Variable Use - N/A
+
+Javadoc - N/A
+
+Test Coverage - N/A
+
+Logging - N/A
+
+Versioning - Good!
+- Have been committing in github with appropriate commit messages.
+
+Method only does one thing - N/A
+
+Efficient Code - Good!
+- I think using template makes the JSP load more efficiently.
+
+Testing - N/A
+
+Scope - N/A
+
+Encapsulation - N/A
+
+Properties files/Static variables - N/A
+
+Security - N/A
+
+Maintain specific class functionality - N/A 
+(Why is this in a checklist? It sounds like the same thing as method only does one thing)
+
+IntelliJ warnings - None
+
+Use Modern Java techniques - N/A
