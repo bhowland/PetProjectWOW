@@ -30,7 +30,6 @@
     </ul>
   </div>
 </div>
-<
 <div id="search" class="boxed">
   <h2 class="heading">Search</h2>
   <div class="content">

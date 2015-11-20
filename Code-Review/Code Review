@@ -1,0 +1,76 @@
+******************************************
+*Code Review: PetProjectWOWFall - Mitch  *
+******************************************
+
+Overall - Excellent
+- My first thought was just how clean the app looks as soon as I ran it. Very
+easy to navigate, user-friendly, but absolutely full of information in a well-
+organized application. Very well done. I unfortunately don't know too much about
+the topic and couldn't do any fact-checking, but I assume based on the execution
+that it's up to snuff ;)
+
+Execution - Excellent
+- Runs quickly and without errors. Setup is very clean. Project is easy to
+navigate.
+
+Code Structure - Excellent
+- As noted above, character pages seem to be sorted by realm, making it very
+to find a particular page in the code structure. Interesting way of separating
+the jsp name page from the content page for each character, but again, I think
+it only makes things cleaner and easier to update.
+
+Naming Standard - Excellent
+- As above, file names accurately describe the difference between formatting
+and content, and are arranged such that they are easily recognizable by type
+and by structure.
+
+Repetitive Code - Excellent
+- Code structure in JSPS affords them to be very easily read and makes an
+excellent standard for adding new pages or making adjustments to old ones by
+filing content separate from format, with that formatting page being <10 lines
+of code.
+
+Exception Handling - N/A
+- Not much handling to do with JSPS
+
+Variable Use - N/A
+- See Above
+
+Javadoc - N/A
+- No JavaDoc
+
+Test Coverage - N/A
+- No Tests, but then there isn't a lot of processing to deal with either, and the
+code runs excellently.
+
+Logging - N/A
+- No Logging; see above.
+
+Versioning - Good
+- Noted in the initial commit that lots of work was done before the first commit
+was pushed, and it would have been nice to see that tracked as well, but from
+there on there're regular commits with accurate descriptions of the changes
+made.
+
+Method only does one thing - N/A
+
+Efficient Code - N/A
+
+Testing - N/A
+- No Tests
+
+Scope - N/A
+
+Encapsulation - N/A
+
+Properties files/Static variables - Excellent
+- Spring Implementation
+
+Security - N/A
+
+Maintain specific class functionality - N/A
+
+IntelliJ warnings - Excellent
+- No Warnings, very clean code.
+
+Use Modern Java techniques - Excellent
