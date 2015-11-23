@@ -15,8 +15,8 @@ public class ManagePets {
 
             //Add new Employee object
             PetsGeneral pet = new PetsGeneral();
-            pet.setCanBattle("stuff from the file");
-            //Save the employee in database
+            //pet.setCanBattle("stuff from the file");
+            //Save the pet in database
             session.save(pet);
 
             //Commit the transaction
