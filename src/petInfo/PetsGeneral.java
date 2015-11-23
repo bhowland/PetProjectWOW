@@ -1,17 +1,36 @@
 package petInfo;
 
+import com.sun.javafx.beans.IDProperty;
+
+import javax.persistence.*;
+
 /**
  * Created by benjaminhowland on 11/11/15.
  */
+@Entity
+@Table(name = "All_General_pets", uniqueConstraints =  {
+        @UniqueConstraint(columnNames = "ID")
+})
 public class PetsGeneral {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "ID", unique = true, nullable = false)
     private int ID;
+    @Column(name = "canBattle", unique = true,nullable = false)
     private boolean canBattle;
+    @Column(name = "creatureID", unique = true,nullable = false,length = 5)
     private String creatureID;
+    @Column(name = "name", unique = true,nullable = false,length = 20)
     private String name;
+    @Column(name = "family", unique = false,nullable = false,length = 20)
     private String family;
+    @Column(name = "icon", unique = false,nullable = false,length = 30)
     private String icon;
+    @Column(name = "strongAgainst", unique = false,nullable = false,length = 20)
     private String strongAgainst;
+    @Column(name = "typeID", unique = false,nullable = false,length = 2)
     private String typeID;
+    @Column(name = "weakAgainst", unique = false,nullable = false,length = 20)
     private String weakAgainst;
 
     public int getID() {
