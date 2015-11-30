@@ -11,7 +11,7 @@
             com.mysql.jdbc.Driver
         </property>
 
-        <!-- Assume test is the database name -->
+
         <property name="hibernate.connection.url">
             jdbc:mysql://localhost/All_Pet_info
         </property>

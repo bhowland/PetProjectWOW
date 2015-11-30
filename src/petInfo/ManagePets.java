@@ -29,7 +29,8 @@ public class ManagePets {
                 //String petText = IOUtils.toString(is);
                 JSONObject petObject = new JSONObject(is);
 
-                for(int i = 0; i<petObject.pets.length(); i++) {
+
+                for(int i = 0; i<petObject.length(); i++) {
                     pet.setCanBattle(petObject.getBoolean("canBattle"));
                     pet.setName(petObject.getString("name"));
                     pet.setFamily(petObject.getString("family"));

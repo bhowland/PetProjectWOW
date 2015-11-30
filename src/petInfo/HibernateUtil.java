@@ -1,5 +1,6 @@
 package petInfo;
 
+import com.sun.javafx.tools.packager.Log;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.AnnotationConfiguration;
 
@@ -14,11 +15,10 @@ public class HibernateUtil
         try
         {
             // Create the SessionFactory from hibernate.cfg.xml
-            return new AnnotationConfiguration().configure(new File("hibernate.cgf.xml")).buildSessionFactory();
+            return new AnnotationConfiguration().configure(new File("/hibernate.cfg.xml")).buildSessionFactory();
         }
         catch (Throwable ex) {
-            // Make sure you log the exception, as it might be swallowed
-            System.err.println("Initial SessionFactory creation failed." + ex);
+            Log.info("Initial SessionFactory creation failed." + ex);
             throw new ExceptionInInitializerError(ex);
         }
     }
