@@ -40,6 +40,8 @@
               $(document.body).append('Type or Family of pet: ' + pet.family + '<br />');
               $(document.body).append('Best used to beat: ' + pet.strongAgainst + '<br />');
               $(document.body).append('Avoid using verus: ' + pet.weakAgainst + '<br />');
+              //maybe add in the pet skills
+              //use the bliz api for each ability?
 
             });
           }
