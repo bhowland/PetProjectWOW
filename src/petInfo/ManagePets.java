@@ -30,11 +30,11 @@ public class ManagePets {
                 JSONObject petObject = new JSONObject(is);
 
                 for(int i = 0; i<petObject.pets.length(); i++) {
-                    pet.setCanBattle(petObject.getBoolean(canBattle));
-                    pet.setName(petObject.getString(name));
-                    pet.setFamily(petObject.getString(family));
-                    pet.setStrongAgainst(petObject.getString(strongAgainst));
-                    pet.setWeakAgainst(petObject.getString(weakAgainst));
+                    pet.setCanBattle(petObject.getBoolean("canBattle"));
+                    pet.setName(petObject.getString("name"));
+                    pet.setFamily(petObject.getString("family"));
+                    pet.setStrongAgainst(petObject.getString("strongAgainst"));
+                    pet.setWeakAgainst(petObject.getString("weakAgainst"));
                     session.save(pet);
 
                 }
