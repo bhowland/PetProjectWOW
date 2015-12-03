@@ -13,7 +13,7 @@
 
 
         <property name="hibernate.connection.url">
-            jdbc:mysql://localhost/All_Pet_info
+            jdbc:mysql://localhost:3306/All_Pet_info
         </property>
         <property name="hibernate.connection.username">
             root
@@ -23,7 +23,8 @@
         </property>
 
         <!-- List of XML mapping files -->
-        <mapping resource="src/petInfo/PetsGeneral.hbm.xml"/>
+        <mapping resource="PetsGeneral.hbm.xml"/>
+        <mapping class="petInfo.PetsGeneral"/>
 
     </session-factory>
 </hibernate-configuration>

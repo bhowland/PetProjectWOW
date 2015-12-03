@@ -17,7 +17,7 @@
         <property name="family" column="Family" type="string"/>
         <property name="icon" column="Icon" type="string"/>
         <property name="strongAgainst" column="Strong_Against" type="string"/>
-        <property name="typeID" column="Type_ID" type="string"/>
+        <property name="typeID" column="TypeID" type="string"/>
         <property name="weakAgainst" column="Weak_Against" type="string"/>
     </class>
 </hibernate-mapping>

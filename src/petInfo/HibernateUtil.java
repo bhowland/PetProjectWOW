@@ -1,34 +1,27 @@
 package petInfo;
 
-import com.sun.javafx.tools.packager.Log;
 import org.hibernate.SessionFactory;
-import org.hibernate.cfg.AnnotationConfiguration;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.service.ServiceRegistry;
+import org.hibernate.service.ServiceRegistryBuilder;
 
-import java.io.File;
+public class HibernateUtil {
 
-public class HibernateUtil
-{
-    private static final SessionFactory sessionFactory = buildSessionFactory();
 
-    private static SessionFactory buildSessionFactory()
-    {
-        try
-        {
-            // Create the SessionFactory from hibernate.cfg.xml
-            return new AnnotationConfiguration().configure(new File("/hibernate.cfg.xml")).buildSessionFactory();
-        }
-        catch (Throwable ex) {
-            Log.info("Initial SessionFactory creation failed." + ex);
-            throw new ExceptionInInitializerError(ex);
-        }
+    private static SessionFactory sessionFactory;
+
+    public static void createSessionFactory() {
+        Configuration configuration = new Configuration();
+        configuration.configure();
+        ServiceRegistry serviceRegistry = new ServiceRegistryBuilder().applySettings(
+                configuration.getProperties()). buildServiceRegistry();
+        sessionFactory = configuration.buildSessionFactory(serviceRegistry);
     }
 
     public static SessionFactory getSessionFactory() {
+        if (sessionFactory == null) {
+            createSessionFactory();
+        }
         return sessionFactory;
-    }
-
-    public static void shutdown() {
-        // Close caches and connection pools
-        getSessionFactory().close();
     }
 }

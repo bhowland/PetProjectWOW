@@ -1,37 +1,38 @@
 package petInfo;
 
-import com.sun.javafx.beans.IDProperty;
-
-import javax.persistence.*;
+import org.codehaus.jackson.annotate.JsonIgnore;
+import org.codehaus.jackson.annotate.JsonProperty;
 
 /**
  * Created by benjaminhowland on 11/11/15.
  */
-@Entity
-@Table(name = "All_General_pets", uniqueConstraints =  {
-        @UniqueConstraint(columnNames = "ID")
-})
+
 public class PetsGeneral {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "ID", unique = true, nullable = false)
+
     private int ID;
-    @Column(name = "canBattle", unique = true,nullable = false)
-    private boolean canBattle;
-    @Column(name = "creatureID", unique = true,nullable = false,length = 5)
+    private String canBattle;
+    @JsonIgnore
     private String creatureID;
-    @Column(name = "name", unique = true,nullable = false,length = 20)
     private String name;
-    @Column(name = "family", unique = false,nullable = false,length = 20)
     private String family;
-    @Column(name = "icon", unique = false,nullable = false,length = 30)
+    @JsonIgnore
     private String icon;
-    @Column(name = "strongAgainst", unique = false,nullable = false,length = 20)
     private String strongAgainst;
-    @Column(name = "typeID", unique = false,nullable = false,length = 2)
+    @JsonIgnore
     private String typeID;
-    @Column(name = "weakAgainst", unique = false,nullable = false,length = 20)
+    //got an error if I didnt have this so i took it out
+    //pets is used at the start of the string/json file
+    @JsonIgnore
+    private String pets;
     private String weakAgainst;
+
+    public String getPets() {
+        return pets;
+    }
+
+    public void setPets(String pets) {
+        this.pets = pets;
+    }
 
     public int getID() {
         return ID;
@@ -41,11 +42,11 @@ public class PetsGeneral {
         this.ID = ID;
     }
 
-    public boolean isCanBattle() {
+    public String isCanBattle() {
         return canBattle;
     }
 
-    public void setCanBattle(boolean canBattle) {
+    public void setCanBattle(String canBattle) {
         this.canBattle = canBattle;
     }
 
