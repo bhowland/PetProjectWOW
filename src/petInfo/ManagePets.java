@@ -20,14 +20,14 @@ public class ManagePets {
         String fileToBeRead = "allPetsSixPointTwo";
         String line = "";
         String jsonFileString = "";
-        AddToDataBase addToDataBase = new AddToDataBase();
+        AddToDatabase addToDatabase = new AddToDatabase();
         try {
             session.beginTransaction();
             br = new BufferedReader(new FileReader(fileToBeRead));
             while ((line = br.readLine()) != null) {
                 jsonFileString += line;
             }//end while
-            addToDataBase.addPet(jsonFileString);
+            addToDatabase.addPet(jsonFileString);
         }
         catch (Exception e) {
             log.debug("error of:" + e);
