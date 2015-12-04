@@ -42,14 +42,15 @@ public class PetsGeneral {
     @JsonIgnore
     private String speed;
 
+
     @Override
     public String toString() {
 
-        return "Battle = " + this.canBattle
-                + "name = " + this.name
-                + "Family = " + this.family
-                + "Strong verus = " + this.strongAgainst
-                + "Weak verus = " + this.weakAgainst;
+        return "canBattle:" + this.canBattle + " , "
+                + "name:" + this.name + " , "
+                + "family:" + this.family + " , "
+                + "strongAgainst:" + this.strongAgainst + " , "
+                + "weakAgainst:" + this.weakAgainst;
 
     }
 

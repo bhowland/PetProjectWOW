@@ -45,7 +45,11 @@ public class JsonMapper {
          */
         public static <T> T decode(String data, Class<T> type) {
             try {
+                System.out.println("IN MAPPER data " + data);
+                System.out.println("IN MAPPER type " + type);
+                System.out.println("IN MAPPER readValue: " + jsonMapper.readValue(data, type));
                 return jsonMapper.readValue(data, type);
+
             } catch (JsonMappingException e) {
                 e.printStackTrace();
             } catch (JsonParseException e) {
