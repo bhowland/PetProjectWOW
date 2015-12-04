@@ -12,8 +12,6 @@ import java.io.IOException;
  */
 public class ManagePets {
     static Logger log = Logger.getLogger(ManagePets.class.getName());
-
-    ManagePets managePets = new ManagePets();
     public static void main(String[] args) {
         Session session = HibernateUtil.getSessionFactory().openSession();
         BufferedReader br = null;

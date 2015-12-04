@@ -10,30 +10,30 @@ import java.util.HashMap;
  */
 public class PetsArray {
 
-    static Logger log = Logger.getLogger(ManagePets.class.getName());
+    static Logger log = Logger.getLogger(PetsArray.class.getName());
 
 
 
             private static PetsArray instance = null;
 
-            private static HashMap<String, ArrayList<PetsGeneral>> petsArray;
+            private static HashMap<String, ArrayList<OverallPets>> petsArray;
             protected static final String KEY = "pets";
 
             public static PetsArray getInstance() {
                 if (instance == null) {
                     instance = new PetsArray();
                     petsArray = new HashMap();
-                    petsArray.put(KEY, new ArrayList<PetsGeneral>());
+                    petsArray.put(KEY, new ArrayList<OverallPets>());
                 }
                 return instance;
             }
 
-            public HashMap<String, ArrayList<PetsGeneral>> getPetsArray() {
+            public HashMap<String, ArrayList<OverallPets>> getPetsArray() {
                 return petsArray;
             }
 
-            public void addPet(PetsGeneral petsGeneral) {
-                petsArray.get(KEY).add(petsGeneral);
+            public void addPet(OverallPets overallPets) {
+                petsArray.get(KEY).add(overallPets);
             }
 
         }
