@@ -17,14 +17,13 @@ public class PetsArray {
             private static PetsArray instance = null;
 
             private static HashMap<String, ArrayList<PetsGeneral>> petsArray;
-            protected static final String KEY = "presentations";
+            protected static final String KEY = "pets";
 
             public static PetsArray getInstance() {
                 if (instance == null) {
                     instance = new PetsArray();
                     petsArray = new HashMap();
                     petsArray.put(KEY, new ArrayList<PetsGeneral>());
-                    System.out.println("PA: Pet array used");
                 }
                 return instance;
             }

@@ -11,7 +11,7 @@
         <id name="ID" type="int" column="ID">
             <generator class="native"/>
         </id>
-        <property name="canBattle" column="Can_Battle" type="boolean"/>
+        <property name="canBattle" column="Can_Battle" type="string"/>
         <property name="creatureID" column="CreatureID" type="string"/>
         <property name="name" column="Name" type="string"/>
         <property name="family" column="Family" type="string"/>

@@ -26,7 +26,6 @@ public class JsonMapper {
          */
         public static <T> String encode(T data) {
             try {
-                System.out.println("JM:  MAPPER ENCODE");
                 return jsonMapper.writeValueAsString(data);
             } catch (JsonProcessingException e) {
                 e.printStackTrace();
