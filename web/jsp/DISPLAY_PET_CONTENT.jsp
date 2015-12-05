@@ -1,21 +1,16 @@
-
+<!-- CONTENT -->
 <div id="content">
   <div id="posts">
     <div class="post">
-      <h2 class="title">Just listing out all the pets</h2>
+      <h2 class="title">Welcome to a WOW Pet Battle Page</h2>
       <div class="story">
         <p>This page may not work if battle.net is down, sad face.</p>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-
         <script>
           var apikey = "f3ebrq7wgwak8ksbr2r9r9u3ytuga37s";
           var baseUrl = "https://us.api.battle.net/wow";
-
           // construct the uri with our apikey
           var petSearchUrl = baseUrl + '/pet/?locale=en_US&apikey=' + apikey;
-
           $(document).ready(function() {
-
             // send off the query
             $.ajax({
               url: petSearchUrl,
@@ -23,7 +18,6 @@
               success: searchCallback
             });
           });
-
           // callback for when we get back the results
           function searchCallback(data) {
             //$(document.body).append('Found ' + data.total);
@@ -36,11 +30,10 @@
               $(document.body).append('Avoid using verus: ' + pet.weakAgainst + '<br />');
               //maybe add in the pet skills
               //use the bliz api for each ability?
-
             });
           }
-          </script>
-        </div>
+        </script>
       </div>
+    </div>
   </div>
 </div>

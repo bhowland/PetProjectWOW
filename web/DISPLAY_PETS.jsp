@@ -4,17 +4,16 @@
 <%--
   Created by IntelliJ IDEA.
   User: benjaminhowland
-  Date: 11/23/15
-  Time: 2:18 PM
+  Date: 12/4/15
+  Time: 4:41 PM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<c:set var="pageTitle" scope="request" value="WOW Pet Battle" />
-<c:import url="/jsp/HEAD-TAG.jsp" />
+<c:set var="pageTitle" scope="request" value="Admin login" />
+<c:import url="/jsp/PET-HEAD.jsp" />
 <body>
 <c:import url="/jsp/HEADER-TAG.jsp" />
 <c:import url="/jsp/DISPLAY_PET_CONTENT.jsp" />
 </body>
 </html>
-
