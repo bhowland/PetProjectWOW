@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: benjaminhowland
-  Date: 11/23/15
-  Time: 2:17 PM
-  To change this template use File | Settings | File Templates.
---%>
+
 <div id="content">
   <div id="posts">
     <div class="post">

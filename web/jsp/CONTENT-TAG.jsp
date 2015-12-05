@@ -3,7 +3,7 @@
   <div id="posts">
     <div class="post">
       <h2 class="title">Welcome to a WOW Pet Battle Page</h2>
-      <div class="story">
+        <div class="story">
         <p>On this site for the time being at least we would like to focus on the better places(imo) to level the
           wonderful little addon to the game, PETS.
         </p>

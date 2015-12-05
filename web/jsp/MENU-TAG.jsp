@@ -34,6 +34,7 @@
   <div class="content">
     <ul>
       <li><a href="/DISPLAY_PETS.jsp">Overview of all Pets in WoW</a></li>
+      <li><a href="/login/login.jsp">Cow level</a> </li>
     </ul>
   </div>
 </div>
