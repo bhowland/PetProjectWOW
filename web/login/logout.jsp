@@ -5,4 +5,4 @@ User '<%=request.getRemoteUser()%>' has been logged out.
 <% session.invalidate(); %>
 
 <br/><br/>
-<a href="admin.jsp">Cow Level</a>
+<a href="admin.jsp">Replay cow Level</a>
