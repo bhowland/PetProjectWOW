@@ -14,7 +14,7 @@
 <c:import url="/jsp/HEAD-TAG.jsp" />
 <body>
 <c:import url="/jsp/HEADER-TAG.jsp" />
-<c:import url="/login/loginContent/LOGOUT_CONTENT.jsp" />
+<c:import url="/login/loginContent/LOG_ERROR_CONTENT.jsp" />
 <c:import url="/jsp/MENU-TAG.jsp" />
 <c:import url="/jsp/FOOTER-TAG.jsp" />
 </body>

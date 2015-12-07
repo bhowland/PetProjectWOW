@@ -39,4 +39,14 @@
         </form-login-config>
     </login-config>
 
+    <error-page>
+        <error-code>403</error-code>
+        <location>/login/log_error.jsp</location>
+    </error-page>
+
+    <error-page>
+        <location>/general_error.jsp</location>
+    </error-page>
+
+
 </web-app>
