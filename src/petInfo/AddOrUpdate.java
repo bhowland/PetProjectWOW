@@ -1,5 +1,6 @@
 package petInfo;
 
+import org.apache.log4j.Logger;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
@@ -8,6 +9,9 @@ import org.hibernate.Transaction;
  * Created by benjaminhowland on 12/3/15.
  */
 public class AddOrUpdate {
+
+    static Logger log = Logger.getLogger(ManagePets.class.getName());
+
     /** Method to CREATE or UPDATE a pet in the database
      * If an id of 0 is passed in, a new pet entry will be created
      * If an id of an existing record is passed in, the pet is updated
@@ -25,7 +29,7 @@ public class AddOrUpdate {
             tx.commit();
         } catch (HibernateException e) {
             if (tx!=null) tx.rollback();
-            e.printStackTrace();
+            log.info("addOrUpdatePet error of: " + e);
         } finally {
             session.close();
         }

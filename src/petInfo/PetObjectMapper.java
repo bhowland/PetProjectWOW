@@ -27,9 +27,9 @@ public class PetObjectMapper {
 
             int i = 0;
             for (OverallPets p : petsArray.getPetsArray().get(PetsArray.KEY)) {
-                    System.out.println("ATDB: For loop: " + p);
-                    System.out.println("ATDB: For loop: " + petsArray);
-                    System.out.println("Loaded a total of " + i + " pets");
+                    log.info("ATDB: For loop: " + p);
+                    log.info("ATDB: For loop: " + petsArray);
+                    log.info("Loaded a total of " + i + " pets");
                     p.getList().get(i).getCanBattle();
                     p.getList().get(i).getName();
                     p.getList().get(i).getFamily();

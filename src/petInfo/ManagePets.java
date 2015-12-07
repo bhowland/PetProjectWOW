@@ -28,17 +28,17 @@ public class ManagePets {
             petObjectMapper.addPet(jsonFileString);
         }
         catch (Exception e) {
-            log.debug("error of:" + e);
+            log.info("error of:" + e);
         }finally {
             if (br != null){
                 try{
                 br.close();
                 }catch (IOException e){
-                    log.error("captin oh captin", e);
+                    log.info("captin oh captin", e);
                 }
             }
         }//end try/catch block
-        System.out.println("oh happy dagger");///////////Just I know it is done//////uisng this one
+        log.info("oh happy dagger");///////////Just I know it is done//////uisng this one
     }//end method
 }//end class
 

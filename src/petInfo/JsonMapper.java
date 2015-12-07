@@ -28,9 +28,9 @@ public class JsonMapper {
             try {
                 return jsonMapper.writeValueAsString(data);
             } catch (JsonProcessingException e) {
-                e.printStackTrace();
+                log.debug("catch in json mapper" + e);
             } catch (IOException e) {
-                e.printStackTrace();
+                log.debug("catch in json mapper" + e);
             }
             return "{}";
         }
@@ -45,17 +45,17 @@ public class JsonMapper {
          */
         public static <T> T decode(String data, Class<T> type) {
             try {
-                System.out.println("IN JSON MAPPER data " + data);
-                System.out.println("IN JSON MAPPER type " + type);
-                System.out.println("IN JSON MAPPER readValue: " + jsonMapper.readValue(data, type));
+                log.info("IN JSON MAPPER data " + data);
+                log.info("IN JSON MAPPER type " + type);
+                log.info("IN JSON MAPPER readValue: " + jsonMapper.readValue(data, type));
                 return jsonMapper.readValue(data, type);
 
             } catch (JsonMappingException e) {
-                e.printStackTrace();
+                log.debug("catch in json mapper" + e);
             } catch (JsonParseException e) {
-                e.printStackTrace();
+                log.debug("catch in json mapper" + e);
             } catch (IOException e) {
-                e.printStackTrace();
+                log.debug("catch in json mapper" + e);
             }
             return null;
         }
