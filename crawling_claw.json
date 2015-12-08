@@ -1,0 +1,13 @@
+{
+  "canBattle": true,
+  "creatureId": 45128,
+  "name": "Crawling Claw",
+  "family": "undead",
+  "icon": "inv_offhand_stratholme_a_02",
+  "strongAgainst": [
+    "humanoid"
+  ],
+  "weakAgainst": [
+    "water"
+  ]
+}

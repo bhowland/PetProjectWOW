@@ -1,6 +1,7 @@
-package petInfo;
+package singlePet;
 
 import org.codehaus.jackson.annotate.JsonIgnore;
+import petInfo.StatsForPets;
 
 import java.util.List;
 
@@ -22,15 +23,15 @@ public class PetsGeneral {
     private String creatureID;
     @JsonIgnore
     private String typeID;
-    private List<StatsForPets> list;
+//    private List<StatsForPets> list;
 
     //public List<StatsForPets> getList() {//took out since it was not in use
       //  return list;
     //}
 
-    public void setList(List<StatsForPets> list) {
-        this.list = list;
-    }
+//    public void setList(List<StatsForPets> list) {
+//        this.list = list;
+//    }
 
     public String getTypeID() {
         return typeID;
