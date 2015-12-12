@@ -28,14 +28,14 @@ public class PetObjectMapper {
             for (PetsGeneral p : petsArray.getPetsArray().get(PetsArray.KEY)) {
                     log.info("ATDB: For loop: p= " + p);
                     log.info("ATDB: For loop: petArray= " + petsArray);
-                    log.info("Loaded a total of " + i + " pets");
                     p.getCanBattle();
                     p.getName();
                     p.getFamily();
                     p.getStrongAgainst();
                 p.getWeakAgainst();
+                i++;
+                log.info("Loaded a total of " + i + " pets");
                 addOrUpdate.addOrUpdatePet(p);
-                    i++;
             }
         }
 }

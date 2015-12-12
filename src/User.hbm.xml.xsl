@@ -12,7 +12,7 @@
             <generator class="native"/>
         </id>
         <property name="userName" column="UserName" type="string"/>
-        <property name="userRole" column="RoleName" type="string"/>
+        <property name="userRoles" column="RoleName" type="string"/>
         <property name="passWord" column="PassWord" type="string"/>
     </class>
 </hibernate-mapping>
