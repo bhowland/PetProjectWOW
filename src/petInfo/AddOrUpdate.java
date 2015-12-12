@@ -29,7 +29,7 @@ public class AddOrUpdate {
             tx.commit();
         } catch (HibernateException e) {
             if (tx!=null) tx.rollback();
-            log.info("addOrUpdatePet error of: " + e);
+            log.info("addOrUpdate error of: " + e);
         } finally {
             session.close();
         }
