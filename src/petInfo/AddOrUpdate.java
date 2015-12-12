@@ -16,16 +16,16 @@ public class AddOrUpdate {
      * If an id of 0 is passed in, a new pet entry will be created
      * If an id of an existing record is passed in, the pet is updated
      *
-     * @param overallPets The UserRole to be added or created
+     * @param petsGeneral The UserRole to be added or created
      **/
-    public void addOrUpdatePet(OverallPets overallPets) {
+    public void addOrUpdatePet(PetsGeneral petsGeneral) {
 
         Session session = HibernateUtil.getSessionFactory().openSession();
         Transaction tx = null;
         Integer Id = null;
         try {
             tx = session.beginTransaction();
-            session.saveOrUpdate(overallPets);
+            session.saveOrUpdate(petsGeneral);
             tx.commit();
         } catch (HibernateException e) {
             if (tx!=null) tx.rollback();

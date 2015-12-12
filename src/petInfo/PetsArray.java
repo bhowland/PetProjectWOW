@@ -16,24 +16,24 @@ public class PetsArray {
 
             private static PetsArray instance = null;
 
-            private static HashMap<String, ArrayList<OverallPets>> petsArray;
+            private static HashMap<String, ArrayList<PetsGeneral>> petsArray;
             protected static final String KEY = "pets";
 
             public static PetsArray getInstance() {
                 if (instance == null) {
                     instance = new PetsArray();
                     petsArray = new HashMap();
-                    petsArray.put(KEY, new ArrayList<OverallPets>());
+                    petsArray.put(KEY, new ArrayList<PetsGeneral>());
                 }
                 return instance;
             }
 
-            public HashMap<String, ArrayList<OverallPets>> getPetsArray() {
+            public HashMap<String, ArrayList<PetsGeneral>> getPetsArray() {
                 return petsArray;
             }
 
-            public void addPet(OverallPets overallPets) {
-                petsArray.get(KEY).add(overallPets);
+            public void addPet(PetsGeneral petsGeneral) {
+                petsArray.get(KEY).add(petsGeneral);
                 log.info("in pet array " + petsArray);
             }
 

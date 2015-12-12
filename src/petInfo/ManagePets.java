@@ -15,7 +15,7 @@ public class ManagePets {
     public static void main(String[] args) {
         Session session = HibernateUtil.getSessionFactory().openSession();
         BufferedReader br = null;
-        String fileToBeRead = "allPetsSixPointTwo";
+        String fileToBeRead = "crawling_claw.json";
         String line = "";
         String jsonFileString = "";
         PetObjectMapper petObjectMapper = new PetObjectMapper();
