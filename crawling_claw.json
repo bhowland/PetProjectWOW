@@ -4,10 +4,6 @@
   "name": "Crawling Claw",
   "family": "undead",
   "icon": "inv_offhand_stratholme_a_02",
-  "strongAgainst": [
-    "humanoid"
-  ],
-  "weakAgainst": [
-    "water"
-  ]
+  "strongAgainst": "humanoid",
+  "weakAgainst": "water"
 }

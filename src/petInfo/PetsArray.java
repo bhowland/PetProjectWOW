@@ -34,6 +34,7 @@ public class PetsArray {
 
             public void addPet(OverallPets overallPets) {
                 petsArray.get(KEY).add(overallPets);
+                log.info("in pet array " + petsArray);
             }
 
         }

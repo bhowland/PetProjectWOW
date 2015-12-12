@@ -19,9 +19,9 @@ public class PetsGeneral {
     @JsonIgnore
     private String icon;
     @JsonIgnore
-    private String creatureID;
+    private String creatureId;
     @JsonIgnore
-    private String typeID;
+    private String typeId;
     private List<StatsForPets> list;
 
     //public List<StatsForPets> getList() {//took out since it was not in use
@@ -32,12 +32,12 @@ public class PetsGeneral {
         this.list = list;
     }
 
-    public String getTypeID() {
-        return typeID;
+    public String getTypeId() {
+        return typeId;
     }
 
-    public void setTypeID(String typeID) {
-        this.typeID = typeID;
+    public void setTypeId(String typeID) {
+        this.typeId = typeID;
     }
 
     @Override
@@ -67,12 +67,12 @@ public class PetsGeneral {
         this.canBattle = canBattle;
     }
 
-    public String getCreatureID() {
-        return creatureID;
+    public String getCreatureId() {
+        return creatureId;
     }
 
-    public void setCreatureID(String creatureID) {
-        this.creatureID = creatureID;
+    public void setCreatureId(String creatureID) {
+        this.creatureId = creatureID;
     }
 
     public String getName() {

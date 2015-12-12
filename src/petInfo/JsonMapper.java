@@ -51,11 +51,11 @@ public class JsonMapper {
                 return jsonMapper.readValue(data, type);
 
             } catch (JsonMappingException e) {
-                log.debug("catch in json mapper" + e);
+                log.info("catch in json mapper" + e);
             } catch (JsonParseException e) {
-                log.debug("catch in json mapper" + e);
+                log.info("catch in json mapper" + e);
             } catch (IOException e) {
-                log.debug("catch in json mapper" + e);
+                log.info("catch in json mapper" + e);
             }
             return null;
         }
