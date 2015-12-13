@@ -5,8 +5,12 @@ import java.io.IOException;
 import org.apache.log4j.Logger;
 import org.codehaus.jackson.JsonParseException;
 import org.codehaus.jackson.JsonProcessingException;
+import org.codehaus.jackson.map.DeserializationConfig;
 import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.ObjectMapper;
+
+import org.codehaus.jackson.map.DeserializationConfig.*;
+import org.springframework.core.serializer.DefaultSerializer;
 
 /**
  * Created by benjaminhowland on 12/3/15.
@@ -16,6 +20,7 @@ public class JsonMapper {
 
 
         public static ObjectMapper jsonMapper = new ObjectMapper();
+
 
 
         /**

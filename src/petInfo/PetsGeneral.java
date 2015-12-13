@@ -11,6 +11,9 @@ import java.util.List;
 public class PetsGeneral {
 
     private int ID;
+
+    private OverallPets pets;
+
     private String canBattle;
     private String name;
     private String family;
@@ -22,15 +25,25 @@ public class PetsGeneral {
     private String creatureId;
     @JsonIgnore
     private String typeId;
-    private List<StatsForPets> list;
+//    private List<StatsForPets> list;
+//
+//    public List<StatsForPets> getList() {//took out since it was not in use
+//        return list;
+//    }
+//
+//    public void setList(List<StatsForPets> list) {
+//        this.list = list;
+//    }
 
-    //public List<StatsForPets> getList() {//took out since it was not in use
-      //  return list;
-    //}
 
-    public void setList(List<StatsForPets> list) {
-        this.list = list;
+    public OverallPets getPets() {
+        return pets;
     }
+
+    public void setPets(OverallPets pets) {
+        this.pets = pets;
+    }
+
 
     public String getTypeId() {
         return typeId;

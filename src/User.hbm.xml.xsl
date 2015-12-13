@@ -4,7 +4,7 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="login.User" table="User">
+    <class name="login.User" table="Users">
         <meta attribute="class-description">
             This class contains the user role detail.
         </meta>

@@ -1,6 +1,5 @@
 {
-  "pets": [
-    {
+  "pets": {
       "canBattle": true,
       "creatureId": 45128,
       "name": "Crawling Claw",
@@ -9,5 +8,6 @@
       "strongAgainst": "humanoid",
       "weakAgainst": "water"
     }
-  ]
 }
+
+

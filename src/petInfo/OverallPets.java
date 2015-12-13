@@ -8,8 +8,21 @@ import java.util.List;
 public class OverallPets {
 
 
+    private  int PETID;
     private  List pets;
     private List<PetsGeneral> list;
+
+
+
+
+
+    public int getPETID() {
+        return PETID;
+    }
+
+    public void setPETID(int PETID) {
+        this.PETID = PETID;
+    }
 
     public List getPets() {
         return pets;

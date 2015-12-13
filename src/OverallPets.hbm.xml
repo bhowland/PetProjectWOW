@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="petInfo.OverallPets">
+
+
+        <meta attribute="class-description">
+            This is where the magic happens for all the pets.
+        </meta>
+        <id name="PETID" type="int" column="PETID">
+            <generator class="native"/>
+        </id>
+
+            <property name="pets" type="string" column="pets" />
+            <set name="list" table="Pets" inverse="true">
+                <key column="PETID" />
+                <one-to-many class="petInfo.PetsGeneral" />
+            </set>
+
+
+    </class>
+</hibernate-mapping>

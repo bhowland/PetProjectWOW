@@ -24,6 +24,17 @@ public class StatsForPets {
     private String power;
     @JsonIgnore
     private String speed;
+    @JsonIgnore
+    private int ID;
+    private PetsGeneral petsGeneral;
+
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
+    }
 
     public String getQualityId() {
         return qualityId;

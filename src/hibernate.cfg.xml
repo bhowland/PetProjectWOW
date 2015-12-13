@@ -26,5 +26,14 @@
         <mapping resource="PetsGeneral.hbm.xml"/>
         <mapping class="petInfo.PetsGeneral"/>
 
+        <!--<mapping resource="StatsForPets.hbm.xml"/>-->
+        <!--<mapping class="petInfo.StatsForPets"/>-->
+
+        <mapping resource="OverallPets.hbm.xml"/>
+        <mapping class="petInfo.OverallPets"/>
+
+        <mapping resource="User.hbm.xml.xsl"/>
+        <mapping class="login.User"/>
+
     </session-factory>
 </hibernate-configuration>

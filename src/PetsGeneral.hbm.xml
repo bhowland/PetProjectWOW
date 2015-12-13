@@ -5,12 +5,14 @@
 
 <hibernate-mapping>
     <class name="petInfo.PetsGeneral" table="ALL_General_pets">
+
         <meta attribute="class-description">
             This is where the magic happens for all the pets.
         </meta>
         <id name="ID" type="int" column="ID">
             <generator class="native"/>
         </id>
+
         <property name="canBattle" column="Can_Battle" type="string"/>
         <property name="creatureId" column="CreatureID" type="string"/>
         <property name="name" column="Name" type="string"/>
@@ -19,5 +21,7 @@
         <property name="strongAgainst" column="Strong_Against" type="string"/>
         <property name="typeId" column="TypeID" type="string"/>
         <property name="weakAgainst" column="Weak_Against" type="string"/>
+
+        <many-to-one name="pets" column="PETID" not-null="true"/>
     </class>
 </hibernate-mapping>
