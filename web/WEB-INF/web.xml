@@ -48,5 +48,15 @@
         <location>/general_error.jsp</location>
     </error-page>
 
+    <servlet>
+        <servlet-name>AshlieServlet</servlet-name>
+        <servlet-class>petInfo.AshlieServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AshlieServlet</servlet-name>
+        <url-pattern>/ashlie.jsp</url-pattern>
+    </servlet-mapping>
+
 
 </web-app>

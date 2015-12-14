@@ -11,6 +11,25 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <c:set var="pageTitle" scope="request" value="Ashlei" />
+
+<%--<jsp:include page="/draenor/ashlei.jsp" />--%>
+<c:out value="${petOne }"></c:out>
+<%
+  String petOne = request.getParameter( "petOne" );
+  if ( petOne == null )
+  {
+%>
+<p>No parameter pet given to this page.</p>
+<%
+}
+else
+{
+%>
+<p>The value of parameter pet is <%= petOne.toString() %>.</p>
+<%
+  }
+%>
+
 <c:import url="/jsp/HEAD-TAG.jsp" />
 <body>
 <c:import url="/jsp/HEADER-TAG.jsp" />
