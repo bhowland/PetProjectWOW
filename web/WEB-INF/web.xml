@@ -31,6 +31,9 @@
         </auth-constraint>
     </security-constraint>
 
+
+    <!--///////////////////////ERROR PAGES//////////////////////////////-->
+
     <login-config>
         <auth-method>FORM</auth-method>
         <form-login-config>
@@ -48,9 +51,12 @@
         <location>/general_error.jsp</location>
     </error-page>
 
+
+   <!--/////////////////////// Draenor Servlets//////////////////////////-->
+
     <servlet>
         <servlet-name>AshlieServlet</servlet-name>
-        <servlet-class>petInfo.AshlieServlet</servlet-class>
+        <servlet-class>Servlets.draenor.AshlieServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -58,5 +64,54 @@
         <url-pattern>/ashlie</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>CymreServlet</servlet-name>
+        <servlet-class>Servlets.draenor.CymreServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CymreServlet</servlet-name>
+        <url-pattern>/cymre</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GargraServlet</servlet-name>
+        <servlet-class>Servlets.draenor.GargraServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GargraServlet</servlet-name>
+        <url-pattern>/gargra</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TaraluneServlet</servlet-name>
+        <servlet-class>Servlets.draenor.TaraluneServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TaraluneServlet</servlet-name>
+        <url-pattern>/taralune</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TarrServlet</servlet-name>
+        <servlet-class>Servlets.draenor.TarrServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TarrServlet</servlet-name>
+        <url-pattern>/tarr</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>VesharrServlet</servlet-name>
+        <servlet-class>Servlets.draenor.VesharrServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>VesharrServlet</servlet-name>
+        <url-pattern>/vesharr</url-pattern>
+    </servlet-mapping>
 
 </web-app>

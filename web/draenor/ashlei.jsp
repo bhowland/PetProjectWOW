@@ -14,21 +14,6 @@
 
 
 
-<%
-  Object petOne = request.getAttribute("petOne");
-  if ( petOne == null )
-  {
-%>
-<p>No parameter pet given to this page.</p>
-<%
-}
-else
-{
-%>
-<p>The value of parameter pet is <%= petOne.toString() %>.</p>
-<%
-  }
-%>
 
 <c:import url="/jsp/HEAD-TAG.jsp" />
 <body>

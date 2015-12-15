@@ -21,12 +21,12 @@
   <h2 class="heading">Trainers in Draenor</h2>
   <div class="content">
     <ul>
-      <li><a href="/draenor/cymre.jsp">Cymre Brightblade</a></li>
+      <li><a href="/cymre">Cymre Brightblade</a></li>
       <li><a href="/ashlie">Ashlei</a></li>
-      <li><a href="/draenor/vesharr.jsp">Vesharr</a></li>
-      <li><a href="/draenor/taralune.jsp">Taralune</a></li>
-      <li><a href="/draenor/tarr.jsp">Tarr the Terrible</a></li>
-      <li><a href="/draenor/gargra.jsp">Gargra</a></li>
+      <li><a href="/vesharr">Vesharr</a></li>
+      <li><a href="/taralune">Taralune</a></li>
+      <li><a href="/tarr">Tarr the Terrible</a></li>
+      <li><a href="/gargra">Gargra</a></li>
     </ul>
   </div>
 </div>
