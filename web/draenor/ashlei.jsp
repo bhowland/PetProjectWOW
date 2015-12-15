@@ -12,8 +12,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <c:set var="pageTitle" scope="request" value="Ashlei" />
 
-<%--<jsp:include page="/draenor/ashlei.jsp" />--%>
-<c:out value="${petOne }"></c:out>
+
+<%--<c:import url="/petInfo/AshlieServlet" />--%>
+<jsp:include page="/petInfo/AshlieServlet" />
+<%--<c:out value="${petOne }"></c:out>--%>
+<%--<jsp:forward page="/petInfo/AshlieServlet"/>--%>
+
+
 <%
   String petOne = request.getParameter( "petOne" );
   if ( petOne == null )

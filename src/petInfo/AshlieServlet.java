@@ -40,9 +40,9 @@ public class AshlieServlet extends HttpServlet {
             String hql = "select '*' FROM petInfo.PetsGeneral where ID=27";
             Query query = session.createQuery(hql);
             List results = query.list();
-            log.info("ashlie: " + results);
+            log.info("ashlie servlet: " + results);
 
-        request.setAttribute("petOne", "claw");
+        request.setAttribute("petOne", results);
 
 
         String url = "/draenor/ashlie.jsp";
