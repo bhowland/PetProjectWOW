@@ -22,7 +22,7 @@
   <div class="content">
     <ul>
       <li><a href="/draenor/cymre.jsp">Cymre Brightblade</a></li>
-      <li><a href="/draenor/ashlei.jsp">Ashlei</a></li>
+      <li><a href="/ashlie">Ashlei</a></li>
       <li><a href="/draenor/vesharr.jsp">Vesharr</a></li>
       <li><a href="/draenor/taralune.jsp">Taralune</a></li>
       <li><a href="/draenor/tarr.jsp">Tarr the Terrible</a></li>

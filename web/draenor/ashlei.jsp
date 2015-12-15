@@ -13,14 +13,9 @@
 <c:set var="pageTitle" scope="request" value="Ashlei" />
 
 
-<%--<c:import url="/petInfo/AshlieServlet" />--%>
-<jsp:include page="/petInfo/AshlieServlet" />
-<%--<c:out value="${petOne }"></c:out>--%>
-<%--<jsp:forward page="/petInfo/AshlieServlet"/>--%>
-
 
 <%
-  String petOne = request.getParameter( "petOne" );
+  Object petOne = request.getAttribute("petOne");
   if ( petOne == null )
   {
 %>

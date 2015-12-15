@@ -55,7 +55,7 @@
 
     <servlet-mapping>
         <servlet-name>AshlieServlet</servlet-name>
-        <url-pattern>/ashlie.jsp</url-pattern>
+        <url-pattern>/ashlie</url-pattern>
     </servlet-mapping>
 
 
