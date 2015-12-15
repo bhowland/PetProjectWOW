@@ -12,7 +12,7 @@ public class PetsGeneral {
 
     private int ID;
 
-//    private OverallPets pets;
+    private OverallPets pets;
 
     private String canBattle;
     private String name;
@@ -36,13 +36,13 @@ public class PetsGeneral {
 //    }
 
 
-//    public OverallPets getPets() {
-//        return pets;
-//    }
-//
-//    public void setPets(OverallPets pets) {
-//        this.pets = pets;
-//    }
+    public OverallPets getPets() {
+        return pets;
+    }
+
+    public void setPets(OverallPets pets) {
+        this.pets = pets;
+    }
 
 
     public String getTypeId() {
