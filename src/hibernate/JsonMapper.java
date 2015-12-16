@@ -1,4 +1,4 @@
-package petInfo;
+package hibernate;
 
 import java.io.IOException;
 

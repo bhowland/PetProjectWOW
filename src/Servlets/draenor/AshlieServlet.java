@@ -6,8 +6,7 @@ package Servlets.draenor;
 import org.apache.log4j.Logger;
 import org.hibernate.Query;
 import org.hibernate.Session;
-import org.springframework.stereotype.Controller;
-import petInfo.HibernateUtil;
+import hibernate.HibernateUtil;
 import petInfo.ManagePets;
 
 import javax.servlet.RequestDispatcher;

@@ -16,10 +16,10 @@ public class PetsGeneral {
     private String family;
     private String strongAgainst;
     private String weakAgainst;
+    private String creatureId;
+
     @JsonIgnore
     private String icon;
-    @JsonIgnore
-    private String creatureId;
     @JsonIgnore
     private String typeId;
     private List<StatsForPets> list;

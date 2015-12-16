@@ -16,6 +16,7 @@
         <load-on-startup>1</load-on-startup>
     </servlet>
 
+    <!--/////////////////////////////login page//////////////////////////////-->
 
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
@@ -25,14 +26,12 @@
         <web-resource-collection>
             <web-resource-name>Admin</web-resource-name>
             <url-pattern>/login/admin.jsp</url-pattern>
+            <url-pattern>/admin</url-pattern>
         </web-resource-collection>
         <auth-constraint>
             <role-name>admin</role-name>
         </auth-constraint>
     </security-constraint>
-
-
-    <!--///////////////////////ERROR PAGES//////////////////////////////-->
 
     <login-config>
         <auth-method>FORM</auth-method>
@@ -41,6 +40,8 @@
             <form-error-page>/login/failedLogin.jsp</form-error-page>
         </form-login-config>
     </login-config>
+
+    <!--///////////////////////ERROR PAGES//////////////////////////////-->
 
     <error-page>
         <error-code>403</error-code>
@@ -112,6 +113,18 @@
     <servlet-mapping>
         <servlet-name>VesharrServlet</servlet-name>
         <url-pattern>/vesharr</url-pattern>
+    </servlet-mapping>
+
+    <!--///////////////////////////admin servlet////////////////////-->
+
+    <servlet>
+        <servlet-name>loginServlet</servlet-name>
+        <servlet-class>Servlets.loginServlets.loginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>loginServlet</servlet-name>
+        <url-pattern>/admin</url-pattern>
     </servlet-mapping>
 
 </web-app>

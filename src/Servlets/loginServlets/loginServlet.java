@@ -1,4 +1,4 @@
-package Servlets.draenor;
+package Servlets.loginServlets;
 
 import org.apache.log4j.Logger;
 import org.hibernate.Query;
@@ -16,16 +16,17 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * Created by benjaminhowland on 12/14/15.
+ * Created by benjaminhowland on 12/15/15.
  */
-@WebServlet(name = "VesharrServlet")
-public class VesharrServlet extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-    }
+@WebServlet(name = "loginServlet")
+public class loginServlet extends HttpServlet {
 
     Session session = HibernateUtil.getSessionFactory().openSession();
     static Logger log = Logger.getLogger(ManagePets.class.getName());
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+    }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -39,7 +40,7 @@ public class VesharrServlet extends HttpServlet {
 
         request.setAttribute("petOne", results);
 
-        String url = "/draenor/vesharr.jsp";
+        String url = "/login/admin.jsp";
 
         RequestDispatcher dispatcher
                 = getServletContext().getRequestDispatcher(url);

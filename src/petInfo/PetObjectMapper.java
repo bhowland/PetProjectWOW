@@ -1,5 +1,6 @@
 package petInfo;
 
+import hibernate.JsonMapper;
 import org.apache.log4j.Logger;
 
 /**
@@ -26,16 +27,18 @@ public class PetObjectMapper {
 
             int i = 0;
             for (PetsGeneral p : petsArray.getPetsArray().get(PetsArray.KEY)) {
-                    log.info("ATDB: For loop: p= " + p);
-                    log.info("ATDB: For loop: petArray= " + petsArray);
-                    log.info("Loaded a total of " + i + " pets");
-                    p.getCanBattle();
-                    p.getName();
-                    p.getFamily();
-                    p.getStrongAgainst();
+                log.info("ATDB: For loop: p= " + p);
+                log.info("ATDB: For loop: petArray= " + petsArray);
+                log.info("Loaded a total of " + i + " pets");
+                p.getCanBattle();
+                p.getName();
+                p.getFamily();
+                p.getStrongAgainst();
                 p.getWeakAgainst();
+                i++;
+                log.info("Loaded a total of " + i + " pets");
                 addOrUpdate.addOrUpdatePet(p);
-                    i++;
+
             }
         }
 }

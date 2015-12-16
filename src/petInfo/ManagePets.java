@@ -1,5 +1,6 @@
 package petInfo;
 
+import hibernate.HibernateUtil;
 import org.apache.log4j.Logger;
 import org.hibernate.Session;
 
@@ -15,7 +16,7 @@ public class ManagePets {
     public static void main(String[] args) {
         Session session = HibernateUtil.getSessionFactory().openSession();
         BufferedReader br = null;
-        String fileToBeRead = "crawling_claw.json";
+        String fileToBeRead = "PetFilesJson/crawling_claw.json";
         String line = "";
         String jsonFileString = "";
         PetObjectMapper petObjectMapper = new PetObjectMapper();
