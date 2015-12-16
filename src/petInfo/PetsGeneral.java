@@ -16,12 +16,14 @@ public class PetsGeneral {
     private String family;
     private String strongAgainst;
     private String weakAgainst;
+    private String creatureId;
+
     @JsonIgnore
     private String icon;
     @JsonIgnore
-    private String creatureId;
+    private String creatureID;
     @JsonIgnore
-    private String typeId;
+    private String typeID;
     private List<StatsForPets> list;
 
     //public List<StatsForPets> getList() {//took out since it was not in use

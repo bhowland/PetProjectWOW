@@ -21,12 +21,12 @@
   <h2 class="heading">Trainers in Draenor</h2>
   <div class="content">
     <ul>
-      <li><a href="/draenor/cymre.jsp">Cymre Brightblade</a></li>
-      <li><a href="/draenor/ashlei.jsp">Ashlei</a></li>
-      <li><a href="/draenor/vesharr.jsp">Vesharr</a></li>
-      <li><a href="/draenor/taralune.jsp">Taralune</a></li>
-      <li><a href="/draenor/tarr.jsp">Tarr the Terrible</a></li>
-      <li><a href="/draenor/gargra.jsp">Gargra</a></li>
+      <li><a href="/cymre">Cymre Brightblade</a></li>
+      <li><a href="/ashlie">Ashlei</a></li>
+      <li><a href="/vesharr">Vesharr</a></li>
+      <li><a href="/taralune">Taralune</a></li>
+      <li><a href="/tarr">Tarr the Terrible</a></li>
+      <li><a href="/gargra">Gargra</a></li>
     </ul>
   </div>
 </div>
@@ -34,7 +34,7 @@
   <div class="content">
     <ul>
       <li><a href="/DISPLAY_PETS.jsp">Overview of all Pets in WoW</a></li>
-      <li><a href="/login/admin.jsp">Cow level</a> </li>
+      <li><a href="/admin">Cow level</a> </li>
     </ul>
   </div>
 </div>

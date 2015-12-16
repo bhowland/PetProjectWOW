@@ -11,6 +11,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <c:set var="pageTitle" scope="request" value="Ashlei" />
+
+
+
+
 <c:import url="/jsp/HEAD-TAG.jsp" />
 <body>
 <c:import url="/jsp/HEADER-TAG.jsp" />

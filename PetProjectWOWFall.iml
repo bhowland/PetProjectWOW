@@ -44,5 +44,7 @@
     <orderEntry type="library" name="mysql-connector-java-5.1.37-bin" level="project" />
     <orderEntry type="library" name="log4j" level="project" />
     <orderEntry type="library" name="jackson-all-1.9.0" level="project" />
+    <orderEntry type="library" name="javax.ws.rs" level="project" />
+    <orderEntry type="library" name="javax.servlet-3.0.0.v201112011016" level="project" />
   </component>
 </module>

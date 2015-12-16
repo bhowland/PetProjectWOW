@@ -16,6 +16,7 @@
         <load-on-startup>1</load-on-startup>
     </servlet>
 
+    <!--/////////////////////////////login page//////////////////////////////-->
 
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
@@ -25,6 +26,7 @@
         <web-resource-collection>
             <web-resource-name>Admin</web-resource-name>
             <url-pattern>/login/admin.jsp</url-pattern>
+            <url-pattern>/admin</url-pattern>
         </web-resource-collection>
         <auth-constraint>
             <role-name>admin</role-name>
@@ -39,6 +41,8 @@
         </form-login-config>
     </login-config>
 
+    <!--///////////////////////ERROR PAGES//////////////////////////////-->
+
     <error-page>
         <error-code>403</error-code>
         <location>/login/log_error.jsp</location>
@@ -48,5 +52,79 @@
         <location>/general_error.jsp</location>
     </error-page>
 
+
+   <!--/////////////////////// Draenor Servlets//////////////////////////-->
+
+    <servlet>
+        <servlet-name>AshlieServlet</servlet-name>
+        <servlet-class>Servlets.draenor.AshlieServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AshlieServlet</servlet-name>
+        <url-pattern>/ashlie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CymreServlet</servlet-name>
+        <servlet-class>Servlets.draenor.CymreServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CymreServlet</servlet-name>
+        <url-pattern>/cymre</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GargraServlet</servlet-name>
+        <servlet-class>Servlets.draenor.GargraServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GargraServlet</servlet-name>
+        <url-pattern>/gargra</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TaraluneServlet</servlet-name>
+        <servlet-class>Servlets.draenor.TaraluneServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TaraluneServlet</servlet-name>
+        <url-pattern>/taralune</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TarrServlet</servlet-name>
+        <servlet-class>Servlets.draenor.TarrServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TarrServlet</servlet-name>
+        <url-pattern>/tarr</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>VesharrServlet</servlet-name>
+        <servlet-class>Servlets.draenor.VesharrServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>VesharrServlet</servlet-name>
+        <url-pattern>/vesharr</url-pattern>
+    </servlet-mapping>
+
+    <!--///////////////////////////admin servlet////////////////////-->
+
+    <servlet>
+        <servlet-name>loginServlet</servlet-name>
+        <servlet-class>Servlets.loginServlets.loginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>loginServlet</servlet-name>
+        <url-pattern>/admin</url-pattern>
+    </servlet-mapping>
 
 </web-app>
