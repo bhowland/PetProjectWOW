@@ -31,7 +31,7 @@ public class AshlieServlet extends HttpServlet {
 
         response.setContentType("text/html");
 
-            String hql = "select name FROM petInfo.PetsGeneral where ID=27";
+            String hql = "select name FROM petInfo.PetsGeneral where creatureId=64899";
             Query query = session.createQuery(hql);
             List results = query.list();
             log.info("ashlie servlet: " + results);

@@ -39,7 +39,7 @@ public class ManagePets {
                 }
             }
         }//end try/catch block
-        log.info("oh happy dagger");///////////Just I know it is done//////uisng this one
+        log.info("oh happy dagger");///////////Just I know it is done//////using this one
     }//end method
 }//end class
 

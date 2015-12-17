@@ -10,8 +10,36 @@
         </p>
         <h4 class="title">The Pets</h4>
         <ul>
-          <li>Warbot (1,2,1)</li>
-          <li>Cogblade Raptor (2,1,1)</li>
+          <li><%
+            Object petOne = request.getAttribute("petOne");
+            if ( petOne == null )
+            {
+          %>
+            <p>Missing Pet</p>
+            <%
+            }
+            else
+            {
+            %>
+            <%= petOne.toString() %>
+            <%
+              }
+            %> (1,2,1)</li>
+          <li><%
+            Object petTwo = request.getAttribute("petTwo");
+            if ( petTwo == null )
+            {
+          %>
+            <p>Missing Pet</p>
+            <%
+            }
+            else
+            {
+            %>
+            <%= petTwo.toString() %>
+            <%
+              }
+            %> (2,1,1)</li>
           <li>Carry</li>
 
           <p>You can use a level on pet here.</p>

@@ -32,12 +32,16 @@ public class VesharrServlet extends HttpServlet {
 
         response.setContentType("text/html");
 
-        String hql = "select name FROM petInfo.PetsGeneral where ID=27";
+        String hql = "select name FROM petInfo.PetsGeneral where creatureId=68662";
+        String hql2 = "select name FROM petInfo.PetsGeneral where creatureId=64899";
         Query query = session.createQuery(hql);
+        Query query2 = session.createQuery(hql2);
         List results = query.list();
-        log.info("ashlie servlet: " + results);
+        List results2 = query2.list();
+        log.info("vesharr servlet: " + results);
 
         request.setAttribute("petOne", results);
+        request.setAttribute("petTwo", results2);
 
         String url = "/draenor/vesharr.jsp";
 

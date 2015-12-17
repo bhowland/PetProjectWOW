@@ -11,8 +11,36 @@
         </p>
         <h4 class="title">The Pets</h4>
         <ul>
-          <li>Unborn Val'kyr (2,2,2)</li>
-          <li>Rapana Whelk (2,1,1)</li>
+          <li><%
+            Object petOne = request.getAttribute("petOne");
+            if ( petOne == null )
+            {
+          %>
+            <p>Missing Pet</p>
+            <%
+            }
+            else
+            {
+            %>
+            <%= petOne.toString() %>
+            <%
+              }
+            %> (2,2,2)</li>
+          <li><%
+            Object petTwo = request.getAttribute("petTwo");
+            if ( petTwo == null )
+            {
+          %>
+            <p>Missing Pet</p>
+            <%
+            }
+            else
+            {
+            %>
+            <%= petTwo.toString() %>
+            <%
+              }
+            %>  (2,1,1)</li>
           <li>Carry</li>
 
           <p>!!! Watch for the ShieldStorm here!!!!! It will shield the whole team for one hit on

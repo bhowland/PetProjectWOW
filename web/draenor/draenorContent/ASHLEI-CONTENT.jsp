@@ -10,24 +10,24 @@
           Wowhead link at the bottom, so you cant comb through the other strats.
         </p>
         <h4 class="title">The Pets</h4>
-        <%
-          Object petOne = request.getAttribute("petOne");
-          if ( petOne == null )
-          {
-        %>
-        <p>No parameter pet given to this page.</p>
-        <%
-        }
-        else
-        {
-        %>
-        <p>The value of parameter pet is <%= petOne.toString() %>.</p>
-        <%
-          }
-        %>
+
 
         <ul>
-          <li>Mechanical Pandaren Dragonling (1,1,2)</li>
+          <li>        <%
+            Object petOne = request.getAttribute("petOne");
+            if ( petOne == null )
+            {
+          %>
+            <p>Missing Pet</p>
+            <%
+            }
+            else
+            {
+            %>
+             <%= petOne.toString() %>
+            <%
+              }
+            %> (1,1,2)</li>
           <li>Carry</li>
           <li>Whatever Pet You Want</li>
 

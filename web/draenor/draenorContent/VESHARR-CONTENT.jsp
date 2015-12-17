@@ -12,8 +12,36 @@
         <h4 class="title">The Pets</h4>
         <ul>
           <li>Carry</li>
-          <li>Chrominius (2,2,2)</li>
-          <li>Mechanical Pandaren Dragonling (1,2,2)</li>
+          <li><%
+            Object petOne = request.getAttribute("petOne");
+            if ( petOne == null )
+            {
+          %>
+            <p>Missing Pet</p>
+            <%
+            }
+            else
+            {
+            %>
+            <%= petOne.toString() %>
+            <%
+              }
+            %> (2,2,2)</li>
+          <li><%
+            Object petTwo = request.getAttribute("petTwo");
+            if ( petTwo == null )
+            {
+          %>
+            <p>Missing Pet</p>
+            <%
+            }
+            else
+            {
+            %>
+            <%= petTwo.toString() %>
+            <%
+              }
+            %> (1,2,2)</li>
 
           <p>START WITH YOUR CARRY PET HERE. You can also you a level one pet here.</p>
         </ul>

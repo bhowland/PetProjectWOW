@@ -33,12 +33,7 @@ public class loginServlet extends HttpServlet {
 
         response.setContentType("text/html");
 
-        String hql = "select name FROM petInfo.PetsGeneral where ID=27";
-        Query query = session.createQuery(hql);
-        List results = query.list();
-        log.info("ashlie servlet: " + results);
 
-        request.setAttribute("petOne", results);
 
         String url = "/login/admin.jsp";
 
