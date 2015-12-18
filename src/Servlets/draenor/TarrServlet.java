@@ -33,15 +33,30 @@ public class TarrServlet extends HttpServlet {
         response.setContentType("text/html");
 
         String hql = "select name FROM petInfo.PetsGeneral where creatureId=71163";
+        String allHql = "FROM petInfo.PetsGeneral where creatureId=71163";
+
         String hql2 = "select name FROM petInfo.PetsGeneral where creatureId=64352";
+        String allHql2 = "FROM petInfo.PetsGeneral where creatureId=64352";
+
         Query query = session.createQuery(hql);
+        Query allQuery = session.createQuery(allHql);
+
         Query query2 = session.createQuery(hql2);
+        Query allQuery2 = session.createQuery(allHql2);
+
         List results = query.list();
+        List allResults = allQuery.list();
+
         List results2 = query2.list();
-        log.info("tarr servlet: " + results);
+        List allResults2 = allQuery2.list();
+
+        log.info(this.getServletName() + results);
 
         request.setAttribute("petOne", results);
+        request.setAttribute("petOneInfo", allResults);
+
         request.setAttribute("petTwo", results2);
+        request.setAttribute("petTwoInfo", allResults2);
 
         String url = "/draenor/tarr.jsp";
 

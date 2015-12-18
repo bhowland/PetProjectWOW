@@ -5,5 +5,6 @@
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <link href="/default.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 <!-- END HEAD -->

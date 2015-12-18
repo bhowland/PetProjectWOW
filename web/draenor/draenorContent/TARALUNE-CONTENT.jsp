@@ -1,3 +1,5 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
 <!-- CONTENT -->
 <div id="content">
   <div id="posts">
@@ -10,36 +12,8 @@
         </p>
         <h4 class="title">The Pets</h4>
         <ul>
-          <li><%
-            Object petOne = request.getAttribute("petOne");
-            if ( petOne == null )
-            {
-          %>
-            <p>Missing Pet</p>
-            <%
-            }
-            else
-            {
-            %>
-            <%= petOne.toString() %>
-            <%
-              }
-            %> (2,2,2)</li>
-          <li><%
-            Object petTwo = request.getAttribute("petTwo");
-            if ( petTwo == null )
-            {
-          %>
-            <p>Missing Pet</p>
-            <%
-            }
-            else
-            {
-            %>
-            <%= petTwo.toString() %>
-            <%
-              }
-            %> (1,2,1)</li>
+          <li class="one"><c:import url="/petOne.jsp" /> (2,2,2)</li>
+          <li class="two"><c:import url="/petTwo.jsp" /> (1,2,1)</li>
           <li>Carry</li>
 
           <p>Play it smart here</p>

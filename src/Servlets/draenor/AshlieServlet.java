@@ -23,20 +23,32 @@ import java.util.List;
 @WebServlet(name = "AshlieServlet")
 public class AshlieServlet extends HttpServlet {
 
+
+
     Session session = HibernateUtil.getSessionFactory().openSession();
     static Logger log = Logger.getLogger(ManagePets.class.getName());
 
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
+
         response.setContentType("text/html");
 
-            String hql = "select name FROM petInfo.PetsGeneral where creatureId=64899";
-            Query query = session.createQuery(hql);
-            List results = query.list();
-            log.info("ashlie servlet: " + results);
+
+
+        String hql = "select name FROM petInfo.PetsGeneral where creatureId=64899";
+        String allHql = "FROM petInfo.PetsGeneral where creatureId=64899";
+
+        Query allQuery = session.createQuery(allHql);
+        Query query = session.createQuery(hql);
+
+        List results = query.list();
+        List allResults = allQuery.list();
+
+        log.info(this.getServletName() + results);
 
         request.setAttribute("petOne", results);
+        request.setAttribute("petOneInfo", allResults);
 
         String url = "/draenor/ashlei.jsp";
 

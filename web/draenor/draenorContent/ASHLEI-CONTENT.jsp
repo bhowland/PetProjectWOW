@@ -1,3 +1,4 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!-- CONTENT -->
 <div id="content">
   <div id="posts">
@@ -13,21 +14,9 @@
 
 
         <ul>
-          <li>        <%
-            Object petOne = request.getAttribute("petOne");
-            if ( petOne == null )
-            {
-          %>
-            <p>Missing Pet</p>
-            <%
-            }
-            else
-            {
-            %>
-             <%= petOne.toString() %>
-            <%
-              }
-            %> (1,1,2)</li>
+          <li class="one">
+            <c:import url="/petOne.jsp" />
+            (1,1,2)</li>
           <li>Carry</li>
           <li>Whatever Pet You Want</li>
 
