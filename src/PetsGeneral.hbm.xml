@@ -8,8 +8,8 @@
         <meta attribute="class-description">
             This is where the magic happens for all the pets.
         </meta>
-        <id name="ID" type="int" column="ID">
-            <generator class="native"/>
+        <id name="ID" type="java.lang.String" column="ID">
+            <generator class="assigned"/>
         </id>
         <property name="canBattle" column="Can_Battle" type="string"/>
         <property name="creatureId" column="CreatureID" type="string"/>

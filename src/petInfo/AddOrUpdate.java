@@ -23,7 +23,7 @@ public class AddOrUpdate {
 
         Session session = HibernateUtil.getSessionFactory().openSession();
         Transaction tx = null;
-        Integer Id = null;
+
         try {
             tx = session.beginTransaction();
             session.saveOrUpdate(petsGeneral);

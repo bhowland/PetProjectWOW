@@ -29,7 +29,7 @@ public class ManagePets {
             petObjectMapper.addPet(jsonFileString);
         }
         catch (Exception e) {
-            log.info("error of:" + e);
+            log.info("MAIN: error of:" + e);
         }finally {
             if (br != null){
                 try{

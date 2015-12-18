@@ -2,6 +2,7 @@ package petInfo;
 
 import org.codehaus.jackson.annotate.JsonIgnore;
 
+import javax.persistence.JoinColumn;
 import java.util.List;
 
 /**
@@ -10,27 +11,30 @@ import java.util.List;
 
 public class PetsGeneral {
 
-    private int ID;
+    private String ID;
     private String canBattle;
     private String name;
     private String family;
     private String strongAgainst;
     private String weakAgainst;
+
+
+    @JoinColumn(name = "ID", referencedColumnName = "ID")
     private String creatureId;
     @JsonIgnore
     private String icon;
 
     @JsonIgnore
     private String typeId;
-    private List<StatsForPets> list;
+    //private List<StatsForPets> list;
 
     //public List<StatsForPets> getList() {//took out since it was not in use
       //  return list;
     //}
 
-    public void setList(List<StatsForPets> list) {
-        this.list = list;
-    }
+    //public void setList(List<StatsForPets> list) {
+//        this.list = list;
+//    }
 
     public String getTypeId() {
         return typeId;
@@ -51,12 +55,12 @@ public class PetsGeneral {
 
     }
 
-    public int getID() {
+    public String getID() {
         return ID;
     }
 
-    public void setID(int ID) {
-        this.ID = ID;
+    public void setID(String creatureId) {
+        this.ID = creatureId;
     }
 
     public String getCanBattle() {
@@ -73,6 +77,7 @@ public class PetsGeneral {
 
     public void setCreatureId(String creatureID) {
         this.creatureId = creatureID;
+        this.ID = creatureID;
     }
 
     public String getName() {

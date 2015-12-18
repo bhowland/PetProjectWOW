@@ -30,8 +30,10 @@ public class PetObjectMapper {
                 log.info("ATDB: For loop: p= " + p);
                 log.info("ATDB: For loop: petArray= " + petsArray);
                 log.info("Loaded a total of " + i + " pets");
+                p.getID();
                 p.getCanBattle();
                 p.getName();
+                p.getCreatureId();
                 p.getFamily();
                 p.getStrongAgainst();
                 p.getWeakAgainst();
