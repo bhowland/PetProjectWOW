@@ -1,0 +1,9 @@
+{
+  "canBattle": true,
+  "creatureId": 68659,
+  "name": "Anubisath Idol",
+  "family": "humanoid",
+  "icon": "inv_qirajidol_strife",
+  "strongAgainst": "dragonkin",
+  "weakAgainst": "beast"
+}

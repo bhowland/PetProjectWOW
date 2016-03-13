@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="3.1">
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>/WEB-INF/applicationContext.xml</param-value>
+    </context-param>
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    <servlet>
+        <servlet-name>dispatcher</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <!--/////////////////////////////login page//////////////////////////////-->
+
+    <servlet-mapping>
+        <servlet-name>dispatcher</servlet-name>
+        <url-pattern>*.form</url-pattern>
+    </servlet-mapping>
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>Admin</web-resource-name>
+            <url-pattern>/login/admin.jsp</url-pattern>
+            <url-pattern>/admin</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>admin</role-name>
+        </auth-constraint>
+    </security-constraint>
+
+    <login-config>
+        <auth-method>FORM</auth-method>
+        <form-login-config>
+            <form-login-page>/login/login.jsp</form-login-page>
+            <form-error-page>/login/failedLogin.jsp</form-error-page>
+        </form-login-config>
+    </login-config>
+
+    <!--///////////////////////ERROR PAGES//////////////////////////////-->
+
+    <error-page>
+        <error-code>403</error-code>
+        <location>/login/log_error.jsp</location>
+    </error-page>
+
+    <error-page>
+        <location>/general_error.jsp</location>
+    </error-page>
+
+
+   <!--/////////////////////// Draenor Servlets//////////////////////////-->
+
+    <servlet>
+        <servlet-name>AshlieServlet</servlet-name>
+        <servlet-class>Servlets.draenor.AshlieServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AshlieServlet</servlet-name>
+        <url-pattern>/ashlie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CymreServlet</servlet-name>
+        <servlet-class>Servlets.draenor.CymreServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CymreServlet</servlet-name>
+        <url-pattern>/cymre</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GargraServlet</servlet-name>
+        <servlet-class>Servlets.draenor.GargraServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GargraServlet</servlet-name>
+        <url-pattern>/gargra</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TaraluneServlet</servlet-name>
+        <servlet-class>Servlets.draenor.TaraluneServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TaraluneServlet</servlet-name>
+        <url-pattern>/taralune</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TarrServlet</servlet-name>
+        <servlet-class>Servlets.draenor.TarrServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TarrServlet</servlet-name>
+        <url-pattern>/tarr</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>VesharrServlet</servlet-name>
+        <servlet-class>Servlets.draenor.VesharrServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>VesharrServlet</servlet-name>
+        <url-pattern>/vesharr</url-pattern>
+    </servlet-mapping>
+
+    <!--///////////////////////////admin servlet////////////////////-->
+
+    <servlet>
+        <servlet-name>loginServlet</servlet-name>
+        <servlet-class>Servlets.loginServlets.loginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>loginServlet</servlet-name>
+        <url-pattern>/admin</url-pattern>
+    </servlet-mapping>
+
+</web-app>

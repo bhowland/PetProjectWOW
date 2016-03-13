@@ -1,0 +1,9 @@
+{
+  "canBattle": true,
+  "creatureId": 71163,
+  "name": "Unborn Val'kyr",
+  "family": "undead",
+  "icon": "inv_valkierpet",
+  "strongAgainst": "humanoid",
+  "weakAgainst": "water"
+}

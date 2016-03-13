@@ -1,0 +1,9 @@
+{
+  "canBattle": true,
+  "creatureId": 34587,
+  "name": "Warbot",
+  "family": "mechanical",
+  "icon": "inv_misc_key_05",
+  "strongAgainst": "beast",
+  "weakAgainst": "elemental"
+}

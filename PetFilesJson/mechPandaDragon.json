@@ -1,0 +1,9 @@
+{
+  "canBattle": true,
+  "creatureId": 64899,
+  "name": "Mechanical Pandaren Dragonling",
+  "family": "mechanical",
+  "icon": "achievement_dungeon_coablackdragonflight_normal",
+  "strongAgainst": "beast",
+  "weakAgainst": "elemental"
+}

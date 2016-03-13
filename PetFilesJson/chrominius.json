@@ -1,0 +1,9 @@
+{
+  "canBattle": true,
+  "creatureId": 68662,
+  "name": "Chrominius",
+  "family": "dragonkin",
+  "icon": "inv_misc_rubysanctum1",
+  "strongAgainst": "magical",
+  "weakAgainst": "undead"
+}

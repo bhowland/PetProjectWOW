@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - All_Pet_Info@localhost" uuid="da8792ae-0146-4bb9-97f6-745417f78f88">
+    <database-info product="MySQL" version="5.7.9" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper"/>
+    <schema name="" catalog="All_Pet_Info"/>
+    <table name="ALL_General_pets" schema="" catalog="All_Pet_Info" type="TABLE">
+      <column name="ID" sqlType="VARCHAR" precision="5" scale="0" nullable="false" jdbcType="12"/>
+      <column name="Can_Battle" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12"/>
+      <column name="CreatureID" sqlType="VARCHAR" precision="5" scale="0" nullable="true" jdbcType="12"/>
+      <column name="Name" sqlType="VARCHAR" precision="30" scale="0" nullable="true" jdbcType="12"/>
+      <column name="Family" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12"/>
+      <column name="Icon" sqlType="VARCHAR" precision="30" scale="0" nullable="true" jdbcType="12"/>
+      <column name="Strong_Against" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12"/>
+      <column name="TypeID" sqlType="VARCHAR" precision="2" scale="0" nullable="true" jdbcType="12"/>
+      <column name="Weak_Against" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="ID"/>
+    </table>
+    <table name="Pets" schema="" catalog="All_Pet_Info" type="TABLE">
+      <column name="PETID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="pet" sqlType="VARCHAR" precision="1000" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="PETID"/>
+      <index name="unique_PETID" unique="true" columns="PETID"/>
+    </table>
+    <table name="Stats_for_Pets" schema="" catalog="All_Pet_Info" type="TABLE">
+      <column name="SpeciesID" sqlType="VARCHAR" precision="3" scale="0" nullable="true" jdbcType="12"/>
+      <column name="BreedID" sqlType="VARCHAR" precision="1" scale="0" nullable="true" jdbcType="12"/>
+      <column name="Level" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="Health" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="Power" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="Speed" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="StatsID" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <primary-key name="PRIMARY" columns="StatsID"/>
+    </table>
+    <table name="Users" schema="" catalog="All_Pet_Info" type="TABLE">
+      <column name="UserID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="UserName" sqlType="VARCHAR" precision="20" scale="0" nullable="false" jdbcType="12"/>
+      <column name="PassWord" sqlType="VARCHAR" precision="20" scale="0" nullable="false" jdbcType="12"/>
+      <column name="UserRoles" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="UserID"/>
+      <index name="unique_UserID" unique="true" columns="UserID"/>
+      <index name="unique_UserName" unique="true" columns="UserName"/>
+    </table>
+  </data-source>
+</component>

@@ -1,0 +1,9 @@
+{
+  "canBattle": true,
+  "creatureId": 64352,
+  "name": "Rapana Whelk",
+  "family": "critter",
+  "icon": "trade_archaeology_fossil_snailshell",
+  "strongAgainst": "undead",
+  "weakAgainst": "humanoid"
+}

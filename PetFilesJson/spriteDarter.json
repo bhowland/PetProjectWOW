@@ -1,0 +1,9 @@
+{
+  "canBattle": true,
+  "creatureId": 9662,
+  "name": "Sprite Darter Hatchling",
+  "family": "dragonkin",
+  "icon": "inv_pet_sprite_darter_hatchling",
+  "strongAgainst": "magical",
+  "weakAgainst": "undead"
+}

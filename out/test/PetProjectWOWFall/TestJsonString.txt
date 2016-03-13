@@ -1,0 +1,1 @@
+"canBattle": true, "creatureId": 35325, "name": "TESTERtest", "family": "undead", "strongAgainst": "flying", "weakAgainst": "humanoid"
