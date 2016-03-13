@@ -1,11 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64850127-83f0-4fce-b04b-fa120b035ee7" name="Default" comment="" />
+    <list default="true" id="64850127-83f0-4fce-b04b-fa120b035ee7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PetProjectWOWFall/PetsGeneral.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PetProjectWOWFall/Servlets/draenor/AshlieServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PetProjectWOWFall/Servlets/draenor/CymreServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PetProjectWOWFall/Servlets/draenor/GargraServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PetProjectWOWFall/Servlets/draenor/PetSearch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PetProjectWOWFall/Servlets/draenor/TaraluneServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PetProjectWOWFall/Servlets/draenor/TarrServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PetProjectWOWFall/Servlets/draenor/VesharrServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PetProjectWOWFall/Servlets/loginServlets/loginServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PetProjectWOWFall/User.hbm.xml.xsl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PetProjectWOWFall/hibernate.cfg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PetProjectWOWFall/hibernate/HibernateUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PetProjectWOWFall/hibernate/JsonMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PetProjectWOWFall/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PetProjectWOWFall/login/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PetProjectWOWFall/petInfo/AddOrUpdate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PetProjectWOWFall/petInfo/ManagePets.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PetProjectWOWFall/petInfo/OverallPets.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PetProjectWOWFall/petInfo/PetObjectMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PetProjectWOWFall/petInfo/PetsArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PetProjectWOWFall/petInfo/PetsGeneral.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PetProjectWOWFall/petInfo/StatsForPets.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/PetProjectWOWFall/TestAddOrUpdate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/PetProjectWOWFall/TestJsonString.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/PetProjectWOWFall/TestManagePets.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/PetProjectWOWFall/TestPetObjectMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/PetProjectWOWFall/TestPetsArry.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/PetsGeneral.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Servlets/draenor/AshlieServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Servlets/draenor/CymreServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Servlets/draenor/GargraServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Servlets/draenor/PetSearch.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Servlets/draenor/TaraluneServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Servlets/draenor/TarrServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Servlets/draenor/VesharrServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Servlets/loginServlets/loginServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/User.hbm.xml.xsl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/hibernate/HibernateUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/hibernate/JsonMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/login/User.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/petInfo/AddOrUpdate.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/petInfo/ManagePets.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/petInfo/OverallPets.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/petInfo/PetObjectMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/petInfo/PetsArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/petInfo/PetsGeneral.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/petInfo/StatsForPets.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PetProjectWOWFall.iml" afterPath="$PROJECT_DIR$/PetProjectWOWFall.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="PetProjectWOWFall.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +87,18 @@
     <favorites_list name="PetProjectWOWFall" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cogblade.json" />
         <option value="$PROJECT_DIR$/src/hibernate/JsonMapper.java" />
         <option value="$PROJECT_DIR$/PetFilesJson/chrominius.json" />
         <option value="$PROJECT_DIR$/PetFilesJson/cogblade.json" />
@@ -120,6 +185,7 @@
         <option value="$PROJECT_DIR$/testResources/TestJsonString.txt" />
         <option value="$PROJECT_DIR$/src/petInfo/PetObjectMapper.java" />
         <option value="$PROJECT_DIR$/test/TestPetObjectMapper.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -190,182 +256,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="PetProjectWOWFall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PetProjectWOWFall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PetProjectWOWFall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PetProjectWOWFall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PetProjectWOWFall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pandaria" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PetProjectWOWFall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PetProjectWOWFall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="draenor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PetProjectWOWFall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PetProjectWOWFall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="draenor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="draenorContent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PetProjectWOWFall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PetProjectWOWFall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PetProjectWOWFall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PetProjectWOWFall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Servlets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PetProjectWOWFall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PetProjectWOWFall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Servlets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="draenor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PetProjectWOWFall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PetProjectWOWFall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="petInfo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PetProjectWOWFall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PetProjectWOWFall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PetProjectWOWFall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PetProjectWOWFall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PetFilesJson" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1111,7 +1001,7 @@
       <workItem from="1450413766847" duration="307000" />
       <workItem from="1450629028622" duration="9490000" />
       <workItem from="1456862803789" duration="1055000" />
-      <workItem from="1457224646421" duration="1238000" />
+      <workItem from="1457224646421" duration="1969000" />
     </task>
     <task id="LOCAL-00010" summary="started the Yon page">
       <created>1446956795064</created>
@@ -1411,7 +1301,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269233000" />
+    <option name="totallyTimeSpent" value="269964000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1424,16 +1314,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="717" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32854864" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32465753" sideWeight="0.3671875" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21638331" sideWeight="0.3234375" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32695374" sideWeight="0.6265625" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1552" sideWeight="0.6765625" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40669855" sideWeight="0.49598393" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38437003" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1446,14 +1338,12 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997344" sideWeight="0.496875" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997344" sideWeight="0.496875" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32465753" sideWeight="0.3671875" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15544555" sideWeight="0.6765625" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13791268" sideWeight="0.5111372" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1539,15 +1429,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/User.hbm.xml.xsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
@@ -1555,7 +1437,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PetsGeneral.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PetsGeneral.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
@@ -1661,14 +1543,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/petInfo/PetsGeneral.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/petInfo/PetsGeneral.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="62" column="28" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/petInfo/StatsForPets.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/petInfo/StatsForPets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -1682,7 +1564,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/login/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12903225">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
@@ -1710,7 +1592,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/User.hbm.xml.xsl">
+    <entry file="file://$PROJECT_DIR$/src/main/java/User.hbm.xml.xsl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1718,7 +1600,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
@@ -1726,7 +1608,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PetsGeneral.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PetsGeneral.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
@@ -1749,7 +1631,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/petInfo/AddOrUpdate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/petInfo/AddOrUpdate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6605505">
           <caret line="28" column="32" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="32" />
@@ -1784,7 +1666,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/petInfo/PetsArray.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/petInfo/PetsArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
@@ -1803,21 +1685,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/petInfo/ManagePets.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/petInfo/ManagePets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/petInfo/OverallPets.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/petInfo/OverallPets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/petInfo/PetObjectMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/petInfo/PetObjectMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
@@ -1838,7 +1720,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate/HibernateUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hibernate/HibernateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -1846,7 +1728,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate/JsonMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hibernate/JsonMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
@@ -1894,7 +1776,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Servlets/draenor/AshlieServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servlets/draenor/AshlieServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4474432">
           <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
@@ -1913,6 +1795,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
