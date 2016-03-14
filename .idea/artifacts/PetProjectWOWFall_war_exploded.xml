@@ -1,23 +1,16 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="PetProjectWOWFall:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/PetProjectWOWFall_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/target/petprojectwowfall-1.0</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="PetProjectWOWFall/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="PetProjectWOWFall" />
         </element>
-        <element id="directory" name="lib">
-          <element id="library" level="project" name="Spring-4.2.2.RELEASE" />
-          <element id="library" level="project" name="Spring MVC-4.2.2.RELEASE" />
-          <element id="library" level="project" name="Hibernate 4.2.2-4.2.2" />
-          <element id="library" level="project" name="java-json" />
-          <element id="library" level="project" name="mysql-connector-java-5.1.37-bin" />
-          <element id="library" level="project" name="log4j" />
-          <element id="library" level="project" name="jackson-all-1.9.0" />
-          <element id="library" level="project" name="javax.ws.rs" />
-        </element>
       </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/petprojectwowfall-1.0/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="PetProjectWOWFall/web/Web" />
     </root>
   </artifact>
 </component>
