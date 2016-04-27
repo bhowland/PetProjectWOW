@@ -9,20 +9,6 @@
     <version>1.0</version>
     <packaging>war</packaging>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>2.2</version>
-                <configuration>
-                    <webXml>PetProjectWOWFall\web\WEB-INF\web.xml</webXml>
-                    <!--<failOnMissingWebXml>false</failOnMissingWebXml>-->
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-
     <dependencies>
         <dependency>
             <groupId>org.hamcrest</groupId>
@@ -106,5 +92,17 @@
 
     </dependencies>
 
-    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <webXml>PetProjectWOWFall/web/web-inf/web.xml</webXml>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
 </project>
