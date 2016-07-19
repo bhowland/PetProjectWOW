@@ -8,3 +8,4 @@ This has been something that I have wanted to make for a while now.  I play a lo
 * This will be your team that you like to use. (Maybe a place you can also put a strategy you like use).  
 * Maybe use jQuery for this, Drag and drop option.
 * Have a site default team and strategy for every trainer (Pandaria, Draenor trainers at the start).
+* There is somthing wrong with the maven/spring and at this time I need to figure this out before building further.
